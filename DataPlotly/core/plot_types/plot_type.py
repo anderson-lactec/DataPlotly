@@ -86,13 +86,17 @@ class PlotType:
                 'title': x_title,
                 'autorange': settings.layout['x_inv'],
                 'range': range_x,
-                'gridcolor': settings.layout.get('gridcolor', '#bdbfc0')
+                'gridcolor': settings.layout.get('gridcolor', '#bdbfc0'),
+                'linecolor': '#969696',
+                'linewidth': 2,
             },
             yaxis={
                 'title': y_title,
                 'autorange': settings.layout['y_inv'],
                 'range': range_y,
-                'gridcolor': settings.layout.get('gridcolor', '#bdbfc0')
+                'gridcolor': settings.layout.get('gridcolor', '#bdbfc0'),
+                'linecolor': '#969696',
+                'linewidth': 2,
             },
             paper_bgcolor=bg_color,
             plot_bgcolor=bg_color
